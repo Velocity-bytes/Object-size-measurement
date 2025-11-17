@@ -104,7 +104,7 @@ def main(args):
                 if conf > 0.5:
                     detections.append((label, conf, (x1,y1,x2,y2)))
 
-        # Annotate
+        # Annotation
         annotated = draw_annotations(frame, markers, detections, H)
 
         # FPS display
